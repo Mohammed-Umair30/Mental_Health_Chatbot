@@ -1,0 +1,20 @@
+{
+  "architectures": ["GPT2LMHeadModel"],
+  "model_type": "gpt2",
+  "bos_token_id": 50256,
+  "eos_token_id": 50256,
+  "pad_token_id": 50256,
+  "vocab_size": 50257,
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_layer": 6,
+  "layer_norm_epsilon": 1e-5,
+  "initializer_range": 0.02,
+  "attn_pdrop": 0.1,
+  "embd_pdrop": 0.1,
+  "resid_pdrop": 0.1,
+  "use_cache": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.52.4"
+}
